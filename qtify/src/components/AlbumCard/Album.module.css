@@ -1,0 +1,28 @@
+.cardWrapper {
+  height: 250px;
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.imgChipWrapper {
+  background-color: white;
+  border-radius: 10px;
+}
+.img {
+  height: 170px;
+  width: 170px;
+  border-radius: 10px;
+}
+
+.chip {
+  height: 23px;
+  padding: 4px 8px 4px 8px;
+  gap: 1px;
+  border-radius: 10px;
+}
+.text {
+  color: white;
+  width: 100%;
+}
