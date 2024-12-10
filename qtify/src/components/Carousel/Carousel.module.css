@@ -1,0 +1,12 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 20px;
+}
