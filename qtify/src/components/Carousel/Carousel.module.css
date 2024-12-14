@@ -3,10 +3,18 @@
   flex-wrap: wrap;
   gap: 15px;
 }
-.heading {
+
+
+
+.carouselWrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 5px;
-  margin-left: 20px;
+  margin: 0 5px 0 5px;
+}
+
+#nextButton {
+  background-color: black;
+  margin: none;
+  transition: none;
 }

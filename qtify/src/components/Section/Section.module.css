@@ -1,7 +1,28 @@
 .SectionWrapper {
   width: 100%;
-  height: 848px;
   display: flex;
   flex-direction: column;
   background-color: black;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 100px;
+}
+
+.upperText {
+  display: flex;
+  justify-content: space-between;
+}
+.showAllWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 65px;
+  overflow-x: hidden;
+}
+.h4:hover {
+  cursor: pointer;
 }
